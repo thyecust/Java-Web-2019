@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>派派电子商城</title>
+<link href=".\layout.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="container">
+   <div id="header">
+   </div>
+   <div id="topmenu"> 
+      <form action="LoginServlet" method="post" name="login" > 
+      <p>用户名<input type="text" name="username" size="13" /> 
+         密  码 <input type="password" name="password" size="13"  />
+        <input type="submit" name="Submit" value="登  录">
+        <input type="button" name="register" value="注  册"
+ onclick="check();"> 
+     <input type="button" name="myorder" value="我的订单" />
+        <input type="button" name="shopcart" value="查看购物车" />
+      </form>  
+   </div>
+  <div id="middle">
+      <div id="leftmenu">
+        <p align="center"><b>商品分类</b></p>
+        <ul>
+           <li><a href="goods.do?catalog=mobilephone">手机数码</a></li>
+           <li><a href="goods.do?catalog=electrical">家用电器</a></li>
+           <li><a href="goods.do?catalog=automobile">汽车用品</a></li>
+           <li><a href="goods.do?catalog=clothes">服饰鞋帽</a></li>
+           <li><a href="goods.do?catalog=health">运动健康</a></li>
+        </ul>
+       </div>
+       <div id="content"> 
+         <table>
+          <tr><td><td><p>
+三星 S5830领取手机节优惠券，立减100元！再送：200元移动手机卡！
+派派价：2068元</p></td>
+          <td></td><td><p>
+             联想（Lenovo）G460AL-ITH 14.0英寸笔记本电脑（i3-370M 2G 500G 512
+独显 DVD刻录 摄像头 Win7)特价：3199元！</p></td>            
+         </tr>
+        </table>
+      </div>
+  </div>
+  <div id="footer">
+     <hr size="1" color="blue"/>  
+     Copyright &copy; 2013 派派电子商城有限责任公司,8899123.
+  </div>
+</div>
+</body>
+</html>

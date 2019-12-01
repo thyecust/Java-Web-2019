@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title></title></head>
+<body><h1>Hello, Java Web</h1>
+<p>文档内容：</p>
+<ul>
+<li>了解Web应用程序开发的基础知识；</li>
+<li>掌握使用Java技术开发Web应用程序的方法</li>
+
+</ul>
+<p>预备知识：</p>
+<ul>
+<li>HTTP, HTML, CSS, JavaScript, XML知识</li>
+<li>Java语言知识</li>
+<li>数据库知识</li>
+
+</ul>
+<p>链接：</p>
+<ul>
+<li><a href='#introduction'>Java Web技术概述</a></li>
+<li><a href='#Servlet'>Servlet技术模型</a></li>
+<li><a href='#Servlet-container'>Servlet容器模型</a></li>
+<li><a href='#JSP'>JSP技术模型</a></li>
+<li><a href='#JDBC'>JDBC数据库访问</a></li>
+
+</ul>
+<h2><span id="introduction">Java Web技术概述</span></h2>
+<h3>World Wide Web</h3>
+<p><img src="C:\Users\tianh\Desktop\java web\bandicam 2019-11-01 13-25-55-604.jpg" referrerpolicy="no-referrer" alt="bandicam 2019-11-01 13-25-55-604"></p>
+<h4>Web Server</h4>
+<p>向浏览器提供服务的程序，是一种被动的程序。如Apache服务器、IIS服务器。</p>
+<h4>Web Browser</h4>
+<p>一个程序，能向服务器发出请求，能处理返回的响应并显示Web页面。</p>
+<h3>Web技术</h3>
+<h4>HTML</h4>
+<pre><code class='language-html' lang='html'>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;&lt;meta charset=&quot;utf-8&quot; lang=&quot;zh&quot;&gt;
+&lt;title&gt;用户注册&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;form action=&quot;register.action&quot; method=&quot;post&quot;&gt;
+&lt;p&gt;用户注册&lt;/p&gt;
+姓名：&lt;input type=&quot;text&quot; name=&quot;name&quot; size=&quot;15&quot;&gt;
+年龄：&lt;input type=&quot;text&quot; name=&quot;age&quot; size=&quot;5&quot;&gt;&lt;br&gt;
+性别：&lt;input type=&quot;radio&quot; name =&quot;sex&quot; value=&quot;male&quot;&gt;男
+      &lt;input type=&quot;radio&quot; name =&quot;sex&quot; value=&quot;female&quot;&gt;女&lt;br&gt;
+兴趣：&lt;input type=&quot;checkbox&quot; name=&quot;hobby&quot; value=&quot;read&quot;&gt;文学
+      &lt;input type=&quot;checkbox&quot; name=&quot;hobby&quot; value=&quot;sport&quot;&gt;体育
+      &lt;input type=&quot;checkbox&quot; name=&quot;hobby&quot; value=&quot;computer&quot;&gt;电脑&lt;br&gt;
+学历：&lt;select name=&quot;education&quot;&gt;
+      &lt;option value=&quot;bachelor&quot;&gt;学士&lt;/option&gt;
+      &lt;option value=&quot;master&quot;&gt;硕士&lt;/option&gt; 
+      &lt;option value=&quot;doctor&quot;&gt;博士&lt;/option&gt; 
+      &lt;/select&gt;
+邮件地址：&lt;input type=&quot;text&quot; name=&quot;email&quot; size=&quot;20&quot;&gt;&lt;br&gt;
+&lt;input type=&quot;submit&quot; name=&quot;submit&quot; value=&quot;提交&quot;&gt;
+&lt;input type=&quot;reset&quot; name=&quot;reset&quot; value=&quot;重置&quot;&gt;
+&lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p>实例：<a href='./sample/register.html'>register.html</a></p>
+<h2><span id="Servlet">Servlet技术模型</span></h2>
+<h2><span id="Servlet-container">Servlet容器模型</span></h2>
+<h2><span id="JSP">JSP技术模型</span></h2>
+<h2><span id="JDBC">JDBC数据库访问</span></h2>
+</body>
+</html>
